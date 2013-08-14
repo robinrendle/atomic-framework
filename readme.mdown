@@ -1,15 +1,1 @@
 # Atomic Sass Framework
-
-This an outline of the ideas that I had in this article.
-
-All of the code contained within this framework is not production ready. This is simply an example and is not intended to be used on live projects, although you’re certainly free to do so.
-
--- Logo?
-
-
-
-## Acknowledgements
-Thanks to:
-- [Harry Roberts](@csswizardry) + [Inuit.css](http://inuitcss.com/)
-- [Brad Frost](@bradfrost) + [Atomic Design]()
-- [Allen Tan](@allentan) + [Made to Measure]()
