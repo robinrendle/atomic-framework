@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    $CLEARFIX
+\*------------------------------------*/
+/**
+ * As per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+
+ * Extend this clearfix class with Sass
+ */
+.cf{
+    &:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}

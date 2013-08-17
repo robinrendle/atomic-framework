@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    $HEADINGS
+\*------------------------------------*/
+
+h1, .alpha {
+    @extend %font__display--black;
+    font-size: $h1-size;
+    font-size: calc-rem($h1-size);
+    line-height: ($line-height-ratio - .25);
+    text-rendering: optimizeLegibility;
+}
+
+h2, .beta {
+    @extend %font__display--normal;
+    font-size: $h2-size;
+    font-size: calc-rem($h2-size);
+    line-height: ($line-height-ratio - .2);
+}
+
+h3, .gamma {
+    @extend %font__display--black;
+    font-size: $h3-size;
+    line-height: ($line-height-ratio - .25);
+    margin-bottom: 0;
+}
+
+h4, .delta {
+    @extend %font__display--black;
+    font-size: $h4-size;
+    line-height: ($line-height-ratio - .1);
+}
+
+h5, .epsilon {
+    font-size: $h5-size;
+    line-height: $line-height-ratio;
+}
+
+.base-text {
+    font-size: $base-font-size;
+    font-size: calc-rem($base-font-size);
+    color: $base-color;
+}

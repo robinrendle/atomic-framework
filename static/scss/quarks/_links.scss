@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+
+a {
+    @include transition(all 0.2s ease-in-out);
+    color:$color__orange--primary;
+    border-bottom: 1px dotted $color__orange--primary;
+    line-height:1;
+
+    &:hover,
+    &:focus {
+        text-decoration:none;
+        color: darken($color__orange--primary, 15);
+        border-bottom: 1px solid $color__orange--active;
+    }
+}
