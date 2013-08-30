@@ -6,6 +6,7 @@
  * This is the control panel where all of the quarks, atoms and molecules are imported.
  */
 
+
 /* Utilities
 ========================================================================== */
 /*
@@ -29,7 +30,8 @@
 /* Quarks
 ========================================================================== */
 /*
- * Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros. Style * guide stuff.
+ * Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros. Style
+ * guide stuff.
  */
 @import "quarks/blockquotes";
 @import "quarks/headings";
@@ -43,7 +45,8 @@
 /* Atoms
 ========================================================================== */
 /*
- * CSS objects that can be extended from and into other elements of the site. Think of these ase the * default relationships that can be used again and again without bloating the codebase.
+ * CSS objects that can be extended from and into other elements of the site. Think of these as
+ * the default relationships that can be used again and again without bloating the codebase.
  */
 @import "atoms/grids";
 @import "atoms/flag";
