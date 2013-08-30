@@ -1,4 +1,4 @@
-# Atomic Sass
+# Atomic Sass Framework
 
 This is an outline of the framework that I discussed in [The Other Interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/). The aim is to decrease the complexity of making large design systems with Sass by scoping similar styles together.
 
