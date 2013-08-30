@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    $DEFAULTS
+\*------------------------------------*/
+
+/**
+ * Font-sizes in pixels.
+ */
+
+$base-line-height: 25px!default;
+
+$micro-size: 13px!default;
+$milli-size: 15px!default;
+$base-font-size: 16px!default;
+
+$h5-size: $base-font-size !default;
+$h4-size: 18px!default;
+$h3-size: 22px!default;
+$h2-size: 28px!default;
+$h1-size: 35px!default;
+
+
+/**
+ * Font-family
+ */
+
+$base-font-family: "Poynter Serif RE", Georgia, serif!default;
+
+
+/**
+ * Color defaults
+ */
+
+$base-color: #252525!default;
+$base-ui-color: #EEEEEE!default;
+
+
+/*------------------------------------*\
+    $BASE-SPACING
+\*------------------------------------*/
+/**
+ * As per: csswizardry.com/2012/06/single-direction-margin-declarations
+ */
+$base-spacing-unit: ($base-line-height - 5) !default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+$quarter-spacing-unit: $base-spacing-unit / 4!default;
+$line-height-ratio: $base-line-height / $base-font-size;

@@ -1,0 +1,110 @@
+/*------------------------------------*\
+    $CUSTOM-POST
+\*------------------------------------*/
+/**
+ * Molecule for custom post styles
+ */
+
+
+/**
+ * Contents
+/* ------------------------------------ */
+
+/**
+ * 1. Another article --- URL
+ * 2. Another article -- URL
+ * 3. Another article -- URL
+ */
+
+
+/**
+ * 1. Another article -- URL
+/* ------------------------------------ */
+
+h2, .beta {
+    @extend %font__display--normal;
+    font-size: $h2-size;
+    font-size: calc-rem($h2-size);
+    line-height: ($line-height-ratio - .2);
+}
+
+h3, .gamma {
+    @extend %font__display--black;
+    font-size: $h3-size;
+    line-height: ($line-height-ratio - .25);
+    margin-bottom: 0;
+}
+
+h4, .delta {
+    @extend %font__display--black;
+    font-size: $h4-size;
+    line-height: ($line-height-ratio - .1);
+}
+
+h5, .epsilon {
+    font-size: $h5-size;
+    line-height: $line-height-ratio;
+}
+
+
+
+
+/**
+ * 1. Another article -- URL
+/* ------------------------------------ */
+
+h2, .beta {
+    @extend %font__display--normal;
+    font-size: $h2-size;
+    font-size: calc-rem($h2-size);
+    line-height: ($line-height-ratio - .2);
+}
+
+h3, .gamma {
+    @extend %font__display--black;
+    font-size: $h3-size;
+    line-height: ($line-height-ratio - .25);
+    margin-bottom: 0;
+}
+
+h4, .delta {
+    @extend %font__display--black;
+    font-size: $h4-size;
+    line-height: ($line-height-ratio - .1);
+}
+
+h5, .epsilon {
+    font-size: $h5-size;
+    line-height: $line-height-ratio;
+}
+
+
+
+/**
+ * 1. Another article -- URL
+/* ------------------------------------ */
+
+h2, .beta {
+    @extend %font__display--normal;
+    font-size: $h2-size;
+    font-size: calc-rem($h2-size);
+    line-height: ($line-height-ratio - .2);
+}
+
+h3, .gamma {
+    @extend %font__display--black;
+    font-size: $h3-size;
+    line-height: ($line-height-ratio - .25);
+    margin-bottom: 0;
+}
+
+h4, .delta {
+    @extend %font__display--black;
+    font-size: $h4-size;
+    line-height: ($line-height-ratio - .1);
+}
+
+h5, .epsilon {
+    font-size: $h5-size;
+    line-height: $line-height-ratio;
+}

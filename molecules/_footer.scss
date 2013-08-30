@@ -1,0 +1,91 @@
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+/**
+ * Custom molecule for footer styles
+ */
+
+
+.footer-main {
+    @extend .cf;
+    color: $color__text--reverse;
+    padding: ($base-spacing-unit*2) 0 0 0;
+    padding: calc-rem($base-spacing-unit * 2) 0 0 0;
+    background-color: $color__background--black;
+    border-top: 5px solid lighten($color__background--black, 10);
+
+    @include breakpoint(680px){
+        float:left;
+        width: 100%;
+    }
+
+    @include breakpoint($breakpoint__large){
+        .wide-wrapper {
+            padding-right: 90px;
+            padding-right: calc-rem(90px);
+        }
+    }
+
+    @include breakpoint(1260px) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+    .footer-main__item {
+        @include max-width(7);
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: $base-spacing-unit * 2;
+        margin-bottom: calc-rem($base-spacing-unit * 2);
+
+        @include breakpoint($breakpoint__small){
+            @include max-width(7);
+        }
+
+        @include breakpoint(1260px) {
+            border-right: 1px solid lighten($color__background--black, 10);
+            padding-top: $base-spacing-unit;
+            padding-top: calc-rem($base-spacing-unit);
+            padding-bottom: $base-spacing-unit;
+            padding-bottom: calc-rem($base-spacing-unit);
+            margin-bottom: 0;
+            min-height: 220px;
+            min-height: calc-rem(220px);
+
+            &:nth-child(3) {
+                border: none;
+            }
+        }
+
+        h3 {
+            font-size: $h4-size;
+            font-size: calc-rem($h4-size);
+            color: $color__white;
+            margin-bottom:0;
+        }
+
+        a,
+        p,
+        label {
+            font-size: $milli-size;
+            font-size: calc-rem($milli-size);
+        }
+
+        input {
+            margin-bottom:0;
+        }
+
+        fieldset {
+            margin-bottom: 0;
+        }
+
+        label {
+            @extend %font__text--regular;
+            color: $color__text--reverse;
+            font-weight:normal;
+            text-transform: none;
+            margin-bottom: $half-spacing-unit;
+            margin-bottom: calc-rem($half-spacing-unit);
+        }
+    }
