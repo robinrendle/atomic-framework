@@ -3,7 +3,6 @@
 \*------------------------------------*/
 
 h1, .alpha {
-    @extend %font__display--black;
     font-size: $h1-size;
     font-size: calc-rem($h1-size);
     line-height: ($line-height-ratio - .25);
@@ -11,21 +10,18 @@ h1, .alpha {
 }
 
 h2, .beta {
-    @extend %font__display--normal;
     font-size: $h2-size;
     font-size: calc-rem($h2-size);
     line-height: ($line-height-ratio - .2);
 }
 
 h3, .gamma {
-    @extend %font__display--black;
     font-size: $h3-size;
     line-height: ($line-height-ratio - .25);
     margin-bottom: 0;
 }
 
 h4, .delta {
-    @extend %font__display--black;
     font-size: $h4-size;
     line-height: ($line-height-ratio - .1);
 }

@@ -6,27 +6,6 @@
 *
 **/
 
-em, i, cite, figcaption {
-
-}
-
-samp {
-}
-
-strong,
-b {
-	@extend %font__text--bold;
-}
-
-abbr, span {
-}
-
-dfn {
-}
-
-mark {
-}
-
 dl {
     dt {
     	@extend %font__text--bold;
@@ -43,32 +22,15 @@ dl {
     }
 }
 
-sub {
-}
-
-sup {
-}
-
-kbd {
-
-}
-
 q:before {content: '“'; content: open-quote;}
 q:after {content: '”'; content: close-quote;}
 
 hr {
-    border: none;
     border-bottom: 1px dotted $color__border--standard;
     margin-bottom: $base-spacing-unit;
-
-
-    &:after {
-
-    }
 }
 
 pre {
     @extend %font__text--regular;
     font-style:italic;
-
 }

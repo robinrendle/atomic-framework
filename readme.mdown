@@ -1,33 +1,25 @@
-# Atomic Sass Framework
+# Atomic Sass
 
-This is an outline of the framework that I discussed in [The Other Interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/). The aim of this system is to decrease the complexity of how front-end developers write Sass. By scoping similar styles together code should be faster to read and write as well as encouraging developers not to write bloated code.
+This is an outline of the framework that I discussed in [The Other Interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/). The aim is to decrease the complexity of making large design systems with Sass by scoping similar styles together.
 
-This framework is inspired by [atomic design](http://bradfrostweb.com/blog/post/atomic-web-design/) and so it uses modules such as quarks, atoms and molecules as directories which separates the various partials and imports them into the control panel.
+Please note that all of the code contained within this ‘framework’ is not production ready. This is simply an example and is not intended to be used on live projects, although you’re certainly free to extend the ideas contained within and make them more awesome.
 
-Please note that all of the code contained within this ‘framework’ is not production ready. This is simply an example and is not intended to be used on live projects, although you’re certainly free to extend the ideas contained here and make them more awesome.
-
-
-## The system
 
 ### Control panel
+Simply imports all of the utilities, quarks, atoms and molecules into a single stylesheet so that developers can quickly scan it and get a general overview of the system.
 
 ### Utilities
-*The basic plumbing of the website*. This directory of partials is important because we’ll need to define global classes, mixins and styles that can be used anywhere and at any time. For example if we need to use color variables throughout the site, then this is the directory that we would need access to.
-
+The basic plumbing of the website; this directory of partials is important because we’ll need to define global classes, mixins and styles that can be used anywhere and at any time. For example if we need to use color variables throughout the site, then this is the directory that we would place that code.
 
 ### Quarks
-
-
+Styles reserved for default HTML elements only.
 
 ### Atoms
+CSS objects that can be extended from and into other elements of the site. Think of these ase the *default relationships* that can be used again and again without bloating the codebase
 
 ### Molecules
+Sometimes we need one-off structures, such as a banner or navigation element or footer, that we don’t intend to replicate. This is where we can combine multiple quarks and atoms, without interfering with any of our global styles.
 
-
-## Requirements
-- Sass
-- Toolkit
-- Breakpoint
 
 
 ## Acknowledgements

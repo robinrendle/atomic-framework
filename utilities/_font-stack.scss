@@ -15,36 +15,29 @@
 /**
  * Default text font-family and font weights
  */
-%font__text--regular {
+%font__serif--text {
     font-family: "Poynter Serif RE", Georgia, serif;
     font-style: normal;
     font-weight: normal;
 }
 
-%font__text--italic {
-    font-family: "Poynter Serif RE", Georgia, serif;
-    font-style: italic;
-    font-weight: normal;
-}
-
-%font__text--bold {
-    font-family: "Poynter Serif RE", Georgia, serif;
-    font-style: normal;
-    font-weight: bold;
-}
-
-%font__display--normal {
+%font__sans--display {
     font-family: "Griffith Gothic", Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
 
-%font__display--black {
-    font-family: "Griffith Gothic Black", Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-
-    .no-fontface & {
-        font-weight: bold;
-    }
+%font__icon--gizmo {
+    font-style:normal;
+    font-family: "SSGizmo";
+    white-space: nowrap;
+    text-decoration: none;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }

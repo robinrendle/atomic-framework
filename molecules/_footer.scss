@@ -25,11 +25,6 @@
             padding-right: calc-rem(90px);
         }
     }
-
-    @include breakpoint(1260px) {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
 }
 
     .footer-main__item {
@@ -58,34 +53,10 @@
             }
         }
 
-        h3 {
+        >h3 {
             font-size: $h4-size;
             font-size: calc-rem($h4-size);
             color: $color__white;
             margin-bottom:0;
-        }
-
-        a,
-        p,
-        label {
-            font-size: $milli-size;
-            font-size: calc-rem($milli-size);
-        }
-
-        input {
-            margin-bottom:0;
-        }
-
-        fieldset {
-            margin-bottom: 0;
-        }
-
-        label {
-            @extend %font__text--regular;
-            color: $color__text--reverse;
-            font-weight:normal;
-            text-transform: none;
-            margin-bottom: $half-spacing-unit;
-            margin-bottom: calc-rem($half-spacing-unit);
         }
     }
