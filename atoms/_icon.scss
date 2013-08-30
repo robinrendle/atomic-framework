@@ -4,17 +4,16 @@
 /**
  * For text-links etc that have an icon with them:
  *
- *  <a href="URL!" class="link--icon">
- *      <span class="icon ss ss-inbox">inbox</span>
- *      Get regular updates from the blog
+ *  <a href="URL!" class="icon">
+ *      <span class="icon__image ss ss-inbox">inbox</span>
+ *         <div class="icon__text">
+ *             Get regular updates from the blog
+ *         </div>
  *  </a>
  */
 
 .icon {
-    @extend %font__icon--gizmo;
     display:inline;
     vertical-align: middle;
     line-height: 0;
-    padding-right: $quarter-spacing-unit - 5px;
-    padding-right: calc-rem($quarter-spacing-unit - 5px);
 }

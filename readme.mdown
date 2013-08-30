@@ -9,13 +9,13 @@ Please note that all of the code contained within this ‘framework’ is not pr
 Simply imports all of the utilities, quarks, atoms and molecules into a single stylesheet so that developers can quickly scan it and get a general overview of the system.
 
 ## Utilities
-The basic plumbing of the website; this directory of partials is important because we’ll need to define global classes, mixins and styles that can be used anywhere and at any time. For example if we need to use color variables throughout the site, then this is the directory that we would place that code.
+The basic plumbing of the website; global classes, mixins and styles that can be used anywhere and at any time. For example if we need to use color variables throughout the site, then this is the directory that we would place that code.
 
 ## Quarks
-Styles reserved for default HTML elements only.
+Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros such as *i* and *em*. Style guide stuff.
 
 ## Atoms
-CSS objects that can be extended from and into other elements of the site. Think of these ase the *default relationships* that can be used again and again without bloating the codebase
+CSS objects that can be extended from and into other elements of the site. Think of these ase the *default relationships* that can be used again and again without bloating the codebase.
 
 ## Molecules
 Sometimes we need one-off structures, such as a banner or navigation element or footer, that we don’t intend to replicate. This is where we can combine multiple quarks and atoms, without interfering with any of our global styles.
