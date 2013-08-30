@@ -5,19 +5,19 @@ This is an outline of the framework that I discussed in [The Other Interface](ht
 Please note that all of the code contained within this ‘framework’ is not production ready. This is simply an example and is not intended to be used on live projects, although you’re certainly free to extend the ideas contained within and make them more awesome.
 
 
-### Control panel
+## Control panel
 Simply imports all of the utilities, quarks, atoms and molecules into a single stylesheet so that developers can quickly scan it and get a general overview of the system.
 
-### Utilities
+## Utilities
 The basic plumbing of the website; this directory of partials is important because we’ll need to define global classes, mixins and styles that can be used anywhere and at any time. For example if we need to use color variables throughout the site, then this is the directory that we would place that code.
 
-### Quarks
+## Quarks
 Styles reserved for default HTML elements only.
 
-### Atoms
+## Atoms
 CSS objects that can be extended from and into other elements of the site. Think of these ase the *default relationships* that can be used again and again without bloating the codebase
 
-### Molecules
+## Molecules
 Sometimes we need one-off structures, such as a banner or navigation element or footer, that we don’t intend to replicate. This is where we can combine multiple quarks and atoms, without interfering with any of our global styles.
 
 
