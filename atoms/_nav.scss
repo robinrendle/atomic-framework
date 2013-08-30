@@ -7,9 +7,9 @@
  *
  */
 .nav{
+    @extend .cf;
     list-style:none;
     margin-left:0;
-    @extend .cf;
 
     > li{
 
@@ -46,35 +46,6 @@
     }
 }
 
-
-/**
- * Category links
- *
- */
-.nav--category {
-    list-style-type: none;
-    margin-bottom: 0;
-}
-
-    .nav--category__item {
-        @extend %font__display--normal;
-        color: darken($color__meta,10);
-        margin-right: $base-spacing-unit;
-        margin-right: calc-rem($base-spacing-unit);
-        margin-bottom: $half-spacing-unit;
-        margin-bottom: calc-rem($half-spacing-unit);
-        border: 1px solid transparent;
-
-        &:hover,
-        &:focus {
-            color: $color__orange--secondary;
-            text-decoration: none;
-        }
-    }
-
-        .nav--category__item--cur {
-            color: $color__orange--secondary;
-        }
 
 /**
  * Give nav links a big, blocky hit area.

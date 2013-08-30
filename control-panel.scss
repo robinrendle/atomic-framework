@@ -9,13 +9,11 @@
  */
 
 
-
-
 /* Utilities
 ========================================================================== */
 /*
-* These are system-wide styles that can be extended into any module throughout the system.
-*/
+ * Global classes, mixins and styles that can be used anywhere and at any time.
+ */
 
 @import "utilities/mixins";
 @import "utilities/reset";
@@ -26,15 +24,17 @@
 @import "utilities/base-spacing";
 @import "utilities/colors";
 
-/**
- * External Compass includes
- */
+// external Compass includes
 @import "toolkit"; // https://github.com/Team-Sass/toolkit
 @import "breakpoint"; // https://github.com/Team-Sass/breakpoint
 
 
+
 /* Quarks
 ========================================================================== */
+/*
+ * Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros. Style * guide stuff.
+ */
 @import "quarks/blockquotes";
 @import "quarks/headings";
 @import "quarks/images";
@@ -47,6 +47,9 @@
 
 /* Atoms
 ========================================================================== */
+/*
+ * CSS objects that can be extended from and into other elements of the site. Think of these ase the * default relationships that can be used again and again without bloating the codebase.
+ */
 @import "atoms/grids";
 @import "atoms/flag";
 @import "atoms/icon";
@@ -56,5 +59,11 @@
 
 /* Molecules
 ========================================================================== */
+/*
+ * Sometimes we need one-off structures, such as a banner or navigation element or footer, that we
+ * don’t intend to replicate. This is where we can combine multiple quarks and atoms, without
+ * interfering with any of our global styles.
+ */
+@import "molecules/primary-nav";
 @import "molecules/footer";
 @import "molecules/primary-nav";

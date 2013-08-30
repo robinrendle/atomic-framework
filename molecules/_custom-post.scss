@@ -7,8 +7,9 @@
 
 
 /* 1.
- * /url-slug-goes-here
-/*------------------------------------ */
+   * /url-slug-goes-here or template name goes here
+  /*----------------------------------------------- */
+
 .post__molecules-and-atoms {
     color: $color__text--reverse;
     padding: ($base-spacing-unit*2) 0 0 0;
@@ -25,8 +26,9 @@
 
 
 /* 2.
- * /url-slug-goes-here
-/*------------------------------------ */
+   * /url-slug-goes-here or template name goes here
+  /*------------------------------------ */
+
 .post__oh-you {
     @extend .cf;
     background-image: url(http://cl.ly/image/0x2H0h3x0K2D/oh-you.jpg);
