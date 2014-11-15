@@ -2,7 +2,9 @@
 
 This is an outline of the framework that I discussed in [The Other Interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/). The aim is to decrease the complexity of making large design systems with Sass by scoping similar styles together.
 
-Please note that all of the code contained within this ‘framework’ is not production ready. This is simply an example and is not intended to be used on live projects, although you’re certainly free to extend the ideas contained within and make them more awesome.
+:warning: **This *framework* is not production ready.** :warning: 
+
+It’s simply an example and isn’t intended to be used on live projects, although you’re certainly free to extend the ideas contained within and make them more awesome.
 
 
 ## Control panel
